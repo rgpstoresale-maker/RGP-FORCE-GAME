@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RGP FORCE GAME - AUG EDITION</title>
+    <style>
+        body { background: #050505; color: #fff; font-family: 'Impact', 'Arial Black', sans-serif; text-align: center; margin: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        
+        /* RGP LOGO - Professional Guard */
+        .rgp-logo { width: 100px; height: 100px; border: 5px solid #f1c40f; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: #000; font-size: 2.5rem; color: #f1c40f; box-shadow: 0 0 30px #f1c40f; margin-bottom: 20px; text-shadow: 2px 2px #c0392b; }
+
+        /* AUG Style Title - Bold, Tactical, Strong */
+        .aug-title { font-size: 3.5rem; font-weight: 900; letter-spacing: -2px; color: #f1c40f; text-transform: uppercase; margin: 0; line-height: 1; text-shadow: 4px 4px 0px #c0392b, 6px 6px 15px rgba(0,0,0,1); transform: skew(-5deg); }
+        .sub-title { font-size: 1rem; letter-spacing: 8px; color: #aaa; margin-bottom: 40px; }
+
+        /* SFG Style Menu Box */
+        .menu-box { background: rgba(20, 20, 20, 0.95); border: 1px solid #444; padding: 30px; border-radius: 5px; width: 85%; max-width: 450px; box-shadow: inset 0 0 50px #000; }
+        
+        /* Buttons - 100% Tactical SFG Style */
+        .btn { padding: 20px; font-size: 1.3rem; font-weight: bold; text-transform: uppercase; cursor: pointer; border: none; margin: 10px 0; width: 100%; border-radius: 4px; box-shadow: inset 0 2px 5px rgba(255,255,255,0.2); }
+        
+        .rgp-army { background: #2d5a27; color: #fff; border-bottom: 5px solid #1a3316; }
+        .rgp-army:hover { background: #3a7532; }
+        
+        .enemy-team { background: #7a2018; color: #fff; border-bottom: 5px solid #4d140f; }
+        .enemy-team:hover { background: #9c291f; }
+
+        .footer-tag { position: absolute; bottom: 15px; font-family: monospace; color: #444; font-size: 0.7rem; }
+    </style>
+</head>
+<body>
+
+    <div class="rgp-logo">RGP</div>
+
+    <h1 class="aug-title">FORCE GAME</h1>
+    <div class="sub-title">AUG TACTICAL EDITION</div>
+
+    <div class="menu-box">
+        <button class="btn rgp-army" onclick="alert('RGP FORCE DEPLOYED!')">JOIN RGP ARMY</button>
+        <button class="btn enemy-team" onclick="alert('ENEMY SIGHTED!')">JOIN ENEMY TEAM</button>
+    </div>
+
+    <div class="footer-tag">SYSTEM VERSION: 1.0.0 | NO DIFFERENCE PROTOCOL</div>
+
+</body>
+</html>
